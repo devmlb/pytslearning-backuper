@@ -132,7 +132,7 @@ print("********** PHASE 1 : RÉCUPÉRATION DU COOKIE DE CONNEXION\n")
 print("Connectez-vous à votre espace dans la fenêtre qui s'ouvre. Ne la fermez pas, le programme va s'en charger tout seul.")
 input("Appuyez sur ENTRÉE pour commencer.")
 
-login_url = 'https://elyco.itslearning.com/index.aspx?SessionExpired=0'
+login_url = BASE_URL
 next_page_indicator = '#pm-user-status-image'
 cookies = get_authenticated_cookies(login_url, next_page_indicator)
 session_cookies = convert_cookies_to_requests_format(cookies)
