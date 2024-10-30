@@ -120,7 +120,7 @@ def display_progress_bar(percentage):
     progress_message = f'[{progress_bar}] {percentage}%'
     print(f'\r{progress_message}', end='')
 
-BASE_URL = "https://elyco.itslearning.com"
+BASE_URL = "https://example.itslearning.com"
 
 # Installing chromedriver
 print("\nPréparation de l'environnement...\n")
