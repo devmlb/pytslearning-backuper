@@ -12,7 +12,11 @@ La fonctionnalité de téléchargement des pièces-jointes n'a pas pu être test
 
 ## Installer
 1. Télécharger le script
-2. Exécuter cette commande :
+2. Modifier la ligne suivante dans le script pour qu'elle corresponde à l'URL de votre instance d'Itslearning :
+```python
+BASE_URL = "https://example.itslearning.com"
+```
+4. Exécuter cette commande :
 ```
 pip install requests selenium chromedriver_autoinstaller
 ```
